@@ -24,7 +24,7 @@ const Home: FC<HomeProps> = () => {
   return (
     <div className='flex flex-1'>
       <div className='home-container'>
-        <h2 className='h3-bold md:h2-bold text-left w-full'>Feed</h2>
+        <h2 className='h3-bold md:h2-bold text-left w-full'>Feed:</h2>
         <div className='home-posts mb-28'>
           <ul className='flex flex-col flex-1 gap-9 w-full'>
             {!posts.length && (
